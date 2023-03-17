@@ -1,0 +1,14 @@
+CHANGES MADE IN Python FILE:
+ADD A GET METHOD TOO.
+* As we are both sending data to backend and receiving it back.
+* We have to enable both GET and POST Methods.
+
+DO NOT USE args, use form instead, get will be as usual.
+
+----------------------------------------------------------------
+
+CHANGES MADE IN HTML FILE:
+in form tag, fill action = "/" as the input control 
+belongs to home page only.
+and we have to add method = "post", as we are 
+postion our data to the backend.
